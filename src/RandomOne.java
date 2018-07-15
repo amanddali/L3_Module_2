@@ -26,3 +26,4 @@ public class RandomOne {
 		}
 	}
 }
+//Copyright © 2018 by Amanda Li

@@ -1,10 +1,6 @@
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-
-import javax.swing.JFileChooser;
 
 public class RandomTwo {
 	public static void main(String[] args) {
@@ -18,7 +14,7 @@ public class RandomTwo {
 	}
 
 	public String Message(String fileName) throws IOException {
-		
+
 		BufferedReader br = new BufferedReader(new FileReader("src/intro_to_file_io/test2.txt"));
 		try {
 			StringBuilder sb = new StringBuilder();
@@ -34,12 +30,12 @@ public class RandomTwo {
 			br.close();
 		}
 	}
-	
+
 	public void decrypt() throws IOException {
 		String s = Message("src/intro_to_file_io/test2.txt");
 		char[] m = s.toCharArray();
 		String o = "";
-		for (char message : m ) {
+		for (char message : m) {
 			message = (char) (message - 1);
 			o += message;
 		}
@@ -47,3 +43,4 @@ public class RandomTwo {
 
 	}
 }
+//Copyright © 2018 by Amanda Li
