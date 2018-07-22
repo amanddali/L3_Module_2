@@ -1,1 +1,4 @@
-e.g. //Copyright © 2018 by Amanda Li
+
+clean
+eat
+feed cat
